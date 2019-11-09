@@ -45,6 +45,7 @@ public class OrderEntryControllor {
                             @RequestParam(value = "useCookie", required = false) String useCookie,
                             HttpServletRequest request,
                             HttpServletResponse response) {
+        logger.info("进入系统");
         logger.info("mid = " + mid);
         logger.info("cid = " + cid);
         logger.info("useCookie = " + useCookie);
